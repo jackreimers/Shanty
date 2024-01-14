@@ -23,7 +23,7 @@
 		</div>
 	</div>
 </header>
-<div class="overflow-hidden" class:h-0={open}>
+<div class="overflow-hidden" class:h-0={!open}>
 	<div class="border-b border-gray-700">
 		<div class="m-3">
 			<div
