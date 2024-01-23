@@ -9,10 +9,13 @@
 	<title>Bunbury Sea Shanty Festival</title>
 </svelte:head>
 
-<header class="border-b border-gray-700 py-3">
-	<div class="container mx-auto px-3">
-		<div class="items-center text-center">
-			<h1 class="mb-2 text-2xl font-bold md:text-4xl">Bunbury Sea Shanty Festival</h1>
+<header class="z-10 shadow-md">
+	<div class="container mx-auto flex px-3">
+		<div class="flex-1">
+			<h1 class="mb-1 py-6 text-2xl font-semibold leading-none">
+				Bunbury Sea Shanty Festival
+			</h1>
+			<!--
 			<Button
 				onClick={() => (open = !open)}
 				classes="border border-gray-300 px-2 py-1 font-medium"
@@ -20,9 +23,42 @@
 				<Icon icon="menu" weight={400} />
 				Menu
 			</Button>
+			-->
+		</div>
+		<div class="flex gap-4 text-center">
+			<Button
+				classes="flex items-center rounded-none border-b-4 border-gray-500 px-4 font-semibold"
+			>
+				Overview
+			</Button>
+			<Button
+				classes="flex items-center rounded-none border-b-4 border-transparent px-4 font-semibold hover:border-gray-500"
+			>
+				Lineup
+			</Button>
+			<Button
+				classes="flex items-center rounded-none border-b-4 border-transparent px-4 font-semibold hover:border-gray-500"
+			>
+				FAQ
+			</Button>
 		</div>
 	</div>
 </header>
+
+<div class="bg-sky-100">
+	<div class="container mx-auto px-3 py-36">
+		<p class="mb-4 text-4xl font-bold">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		</p>
+		<p class="max-w-prose">
+			Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem
+			sed risus ultricies tristique nulla. Malesuada proin libero nunc consequat interdum
+			varius sit amet. Pharetra pharetra massa massa ultricies mi. Est velit egestas dui id
+			ornare arcu odio ut sem. At augue eget arcu dictum varius duis.
+		</p>
+	</div>
+</div>
+<!--
 <div class="overflow-hidden" class:h-0={!open}>
 	<div class="border-b border-gray-700">
 		<div class="m-3">
@@ -65,3 +101,4 @@
 		</div>
 	</div>
 </div>
+-->
