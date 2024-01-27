@@ -33,11 +33,11 @@
 
 <header class="z-10">
 	<div class="container mx-auto px-4 sm:px-6 lg:flex">
-		<div class="flex md:flex-1">
+		<div class="flex items-center md:flex-1">
 			<h1 class="flex-1 py-6 font-semibold leading-none lg:text-2xl">
 				Bunbury Sea Shanty Festival
 			</h1>
-			<Button onClick={openMenu} classes="p-2 lg:hidden">
+			<Button onClick={openMenu} classes="bg-slate-700 p-2 text-white lg:hidden">
 				<Icon icon="menu" weight={400} />
 			</Button>
 		</div>
