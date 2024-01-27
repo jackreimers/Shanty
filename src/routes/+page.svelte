@@ -1,8 +1,19 @@
 <script>
-	import Countdown from '$lib/components/countdown.svelte';
+	import Hero from '$lib/components/layout/hero.svelte';
+
 	import Button from '$lib/components/button.svelte';
 	import Icon from '$lib/components/icon.svelte';
 </script>
+
+<Hero>
+	<p class="mb-4 text-4xl font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	<p class="max-w-prose">
+		Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem sed
+		risus ultricies tristique nulla. Malesuada proin libero nunc consequat interdum varius sit
+		amet. Pharetra pharetra massa massa ultricies mi. Est velit egestas dui id ornare arcu odio
+		ut sem. At augue eget arcu dictum varius duis.
+	</p>
+</Hero>
 
 <div class="mx-auto mt-[-42px] w-1/2 rounded bg-white p-2 shadow-md">
 	<div class="grid grid-cols-3 gap-2 text-center">
@@ -30,111 +41,32 @@
 	</div>
 </div>
 
-<div class="flex flex-col gap-6">
-	<!--
-	<section class="mx-auto w-full text-center">
-		<Button classes="inline-block w-full border border-gray-500 px-5 py-3 font-semibold">
-			Get Tickets Now
-			<Icon icon="open_in_new" />
-		</Button>
-	</section>
-	<section class="rounded bg-gray-100 p-2.5">
-		<h1 class="font-semibold">Welcome!</h1>
+<div class="mt-8 grid grid-cols-3 gap-4">
+	<div class="border p-4">
+		<p class="mb-2 text-2xl font-medium">Title Here</p>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-			incididunt ut labore et dolore magna aliqua.
+			Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem
+			sed risus ultricies tristique nulla. Malesuada proin libero nunc consequat interdum
+			varius sit amet. Pharetra pharetra massa massa ultricies mi. Est velit egestas dui id
+			ornare arcu odio ut sem. At augue eget arcu dictum varius duis.
 		</p>
-	</section>
-
-	<section class="rounded bg-gray-100 p-2.5">
-		<div class="mb-2 flex items-center gap-2">
-			<Icon icon="artist" weight={500} classes="rounded-full bg-gray-200 p-2" />
-			<p class="font-semibold">Lineup</p>
-		</div>
-		<div class="">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua.
-			</p>
-		</div>
-	</section>
-
-	<section>
-		<div class="mb-2 flex items-center gap-2">
-			<Icon icon="apparel" weight={500} classes="rounded-full bg-gray-200 p-2" />
-			<p class="font-semibold">Merchandise</p>
-		</div>
-		<div class="rounded bg-gray-100 p-2.5">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua.
-			</p>
-		</div>
-	</section>
-
-	<section>
-		<div class="mb-2 flex items-center gap-2">
-			<Icon icon="near_me" weight={500} classes="rounded-full bg-gray-200 p-2" />
-			<p class="font-semibold">Venue</p>
-		</div>
-		<div class="rounded bg-gray-100 p-2.5">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua.
-			</p>
-		</div>
-	</section>
-
-	<section>
-		<div class="mb-2 flex items-center gap-2">
-			<Icon icon="volunteer_activism" weight={500} classes="rounded-full bg-gray-200 p-2" />
-			<p class="font-semibold">Volunteering</p>
-		</div>
-		<div class="rounded bg-gray-100 p-2.5">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua.
-			</p>
-		</div>
-	</section>
-
-	<section>
-		<div class="mb-2 flex items-center gap-2">
-			<Icon icon="ad" weight={500} classes="rounded-full bg-gray-200 p-2" />
-			<p class="font-semibold">Advertising</p>
-		</div>
-		<div class="rounded bg-gray-100 p-2.5">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua.
-			</p>
-		</div>
-	</section>
-
-	<section>
-		<div class="mb-2 flex items-center gap-2">
-			<Icon icon="payments" weight={500} classes="rounded-full bg-gray-200 p-2" />
-			<p class="font-semibold">Sponsors</p>
-		</div>
-		<div class="rounded bg-gray-100 p-2.5">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua.
-			</p>
-		</div>
-	</section>
-
-	<section>
-		<div class="mb-2 flex items-center gap-2">
-			<Icon icon="help" weight={500} classes="rounded-full bg-gray-200 p-2" />
-			<p class="font-semibold">FAQ</p>
-		</div>
-		<div class="rounded bg-gray-100 p-2.5">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua.
-			</p>
-		</div>
-	</section>
-	-->
+	</div>
+	<div class="border p-4">
+		<p class="mb-2 text-2xl font-medium">Lineup</p>
+		<p>
+			Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem
+			sed risus ultricies tristique nulla. Malesuada proin libero nunc consequat interdum
+			varius sit amet. Pharetra pharetra massa massa ultricies mi. Est velit egestas dui id
+			ornare arcu odio ut sem. At augue eget arcu dictum varius duis.
+		</p>
+	</div>
+	<div class="border p-4">
+		<p class="mb-2 text-2xl font-medium">Tickets</p>
+		<p>
+			Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem
+			sed risus ultricies tristique nulla. Malesuada proin libero nunc consequat interdum
+			varius sit amet. Pharetra pharetra massa massa ultricies mi. Est velit egestas dui id
+			ornare arcu odio ut sem. At augue eget arcu dictum varius duis.
+		</p>
+	</div>
 </div>
