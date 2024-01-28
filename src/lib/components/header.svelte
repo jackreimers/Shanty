@@ -42,7 +42,7 @@
 			</Button>
 		</div>
 		<div class="mx-auto hidden gap-4 text-center xl:flex">
-			<Button classes="flex items-center px-4 pt-[4px] font-bold text-sky-500"
+			<Button href="/" classes="flex items-center px-4 pt-[4px] font-bold text-sky-500"
 				>Overview</Button
 			>
 			<Button
