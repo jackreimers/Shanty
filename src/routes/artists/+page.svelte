@@ -6,6 +6,10 @@
 	import Button from '$lib/components/button.svelte';
 </script>
 
+<svelte:head>
+	<title>Bunbury Sea Shanty Festival | Artists</title>
+</svelte:head>
+
 <Hero>
 	<div slot="content">
 		<p class="mb-4 text-2xl font-bold lg:text-4xl">Festival Lineup</p>

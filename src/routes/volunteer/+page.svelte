@@ -5,6 +5,10 @@
 	import Container from '$lib/components/layout/container.svelte';
 </script>
 
+<svelte:head>
+	<title>Bunbury Sea Shanty Festival | Volunteering</title>
+</svelte:head>
+
 <Hero>
 	<div slot="content">
 		<p class="mb-4 text-2xl font-bold lg:text-4xl">Volunteering</p>
