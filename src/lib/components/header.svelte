@@ -38,7 +38,7 @@
 	<title>Bunbury Sea Shanty Festival</title>
 </svelte:head>
 
-<header class="z-10">
+<header class="z-10 shadow-lg">
 	<div class="container mx-auto px-4 sm:px-6 lg:flex">
 		<div class="flex items-center md:flex-1">
 			<h1 class="flex-1 py-6 font-semibold leading-none lg:text-2xl">
