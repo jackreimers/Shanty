@@ -37,11 +37,11 @@
 			<h1 class="flex-1 py-6 font-semibold leading-none lg:text-2xl">
 				Bunbury Sea Shanty Festival
 			</h1>
-			<Button onClick={openMenu} classes="bg-sky-500 p-2 text-white lg:hidden">
+			<Button onClick={openMenu} classes="bg-sky-500 p-2 text-white xl:hidden">
 				<Icon icon="menu" weight={400} />
 			</Button>
 		</div>
-		<div class="mx-auto hidden gap-4 text-center lg:flex">
+		<div class="mx-auto hidden gap-4 text-center xl:flex">
 			<Button classes="flex items-center px-4 pt-[4px] font-bold text-sky-500"
 				>Overview</Button
 			>
@@ -49,9 +49,28 @@
 				href="/artists"
 				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
 			>
-				Lineup
+				Artists
 			</Button>
 			<Button
+				href="/venue"
+				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
+			>
+				Venue
+			</Button>
+			<Button
+				href="/venue"
+				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
+			>
+				Volunteer
+			</Button>
+			<Button
+				href="/venue"
+				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
+			>
+				Sponsors
+			</Button>
+			<Button
+				href="/faq"
 				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
 			>
 				FAQ
