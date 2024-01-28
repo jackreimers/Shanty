@@ -53,11 +53,11 @@
 				onClick={() => {
 					routeTo('/');
 				}}
-				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
 			>
 				<span
 					class:font-bold={$page.url.pathname === '/'}
-					class:text-sky-500={$page.url.pathname === '/'}
+					class:text-sky-600={$page.url.pathname === '/'}
 				>
 					Overview
 				</span>
@@ -66,11 +66,11 @@
 				onClick={() => {
 					routeTo('/artists');
 				}}
-				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
 			>
 				<span
 					class:font-bold={$page.url.pathname === '/artists'}
-					class:text-sky-500={$page.url.pathname === '/artists'}
+					class:text-sky-600={$page.url.pathname === '/artists'}
 				>
 					Artists
 				</span>
@@ -79,11 +79,11 @@
 				onClick={() => {
 					routeTo('/venue');
 				}}
-				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
 			>
 				<span
 					class:font-bold={$page.url.pathname === '/venue'}
-					class:text-sky-500={$page.url.pathname === '/venue'}
+					class:text-sky-600={$page.url.pathname === '/venue'}
 				>
 					Venue
 				</span>
@@ -92,11 +92,11 @@
 				onClick={() => {
 					routeTo('/volunteer');
 				}}
-				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
 			>
 				<span
 					class:font-bold={$page.url.pathname === '/volunteer'}
-					class:text-sky-500={$page.url.pathname === '/volunteer'}
+					class:text-sky-600={$page.url.pathname === '/volunteer'}
 				>
 					Volunteer
 				</span>
@@ -105,11 +105,11 @@
 				onClick={() => {
 					routeTo('/sponsors');
 				}}
-				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
 			>
 				<span
 					class:font-bold={$page.url.pathname === '/sponsors'}
-					class:text-sky-500={$page.url.pathname === '/sponsors'}
+					class:text-sky-600={$page.url.pathname === '/sponsors'}
 				>
 					Sponsors
 				</span>
@@ -118,11 +118,11 @@
 				onClick={() => {
 					routeTo('/faq');
 				}}
-				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
 			>
 				<span
 					class:font-bold={$page.url.pathname === '/faq'}
-					class:text-sky-500={$page.url.pathname === '/faq'}
+					class:text-sky-600={$page.url.pathname === '/faq'}
 				>
 					FAQ
 				</span>
@@ -148,11 +148,11 @@
 					onClick={() => {
 						routeTo('/');
 					}}
-					classes="font-medium hover:text-sky-500"
+					classes="font-medium hover:text-sky-600"
 				>
 					<span
 						class:font-bold={$page.url.pathname === '/'}
-						class:text-sky-500={$page.url.pathname === '/'}
+						class:text-sky-600={$page.url.pathname === '/'}
 					>
 						Overview
 					</span>
@@ -161,11 +161,11 @@
 					onClick={() => {
 						routeTo('/artists');
 					}}
-					classes="font-medium hover:text-sky-500"
+					classes="font-medium hover:text-sky-600"
 				>
 					<span
 						class:font-bold={$page.url.pathname === '/artists'}
-						class:text-sky-500={$page.url.pathname === '/artists'}
+						class:text-sky-600={$page.url.pathname === '/artists'}
 					>
 						Artists
 					</span>
@@ -174,11 +174,11 @@
 					onClick={() => {
 						routeTo('/venue');
 					}}
-					classes="font-medium hover:text-sky-500"
+					classes="font-medium hover:text-sky-600"
 				>
 					<span
 						class:font-bold={$page.url.pathname === '/venue'}
-						class:text-sky-500={$page.url.pathname === '/venue'}
+						class:text-sky-600={$page.url.pathname === '/venue'}
 					>
 						Venue
 					</span>
@@ -187,11 +187,11 @@
 					onClick={() => {
 						routeTo('/volunteer');
 					}}
-					classes="font-medium hover:text-sky-500"
+					classes="font-medium hover:text-sky-600"
 				>
 					<span
 						class:font-bold={$page.url.pathname === '/volunteer'}
-						class:text-sky-500={$page.url.pathname === '/volunteer'}
+						class:text-sky-600={$page.url.pathname === '/volunteer'}
 					>
 						Volunteer
 					</span>
@@ -200,11 +200,11 @@
 					onClick={() => {
 						routeTo('/sponsors');
 					}}
-					classes="font-medium hover:text-sky-500"
+					classes="font-medium hover:text-sky-600"
 				>
 					<span
 						class:font-bold={$page.url.pathname === '/sponsors'}
-						class:text-sky-500={$page.url.pathname === '/sponsors'}
+						class:text-sky-600={$page.url.pathname === '/sponsors'}
 					>
 						Sponsors
 					</span>
@@ -213,11 +213,11 @@
 					onClick={() => {
 						routeTo('/faq');
 					}}
-					classes="font-medium hover:text-sky-500"
+					classes="font-medium hover:text-sky-600"
 				>
 					<span
 						class:font-bold={$page.url.pathname === '/faq'}
-						class:text-sky-500={$page.url.pathname === '/faq'}
+						class:text-sky-600={$page.url.pathname === '/faq'}
 					>
 						FAQ
 					</span>
