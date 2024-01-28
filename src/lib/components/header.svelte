@@ -37,12 +37,12 @@
 			<h1 class="flex-1 py-6 font-semibold leading-none lg:text-2xl">
 				Bunbury Sea Shanty Festival
 			</h1>
-			<Button onClick={openMenu} classes="bg-slate-700 p-2 text-white lg:hidden">
+			<Button onClick={openMenu} classes="bg-sky-500 p-2 text-white lg:hidden">
 				<Icon icon="menu" weight={400} />
 			</Button>
 		</div>
 		<div class="mx-auto hidden gap-4 text-center lg:flex">
-			<Button classes="flex items-center px-4 pt-[4px] font-bold text-sky-700"
+			<Button classes="flex items-center px-4 pt-[4px] font-bold text-sky-500"
 				>Overview</Button
 			>
 			<Button

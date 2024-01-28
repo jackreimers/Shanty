@@ -7,7 +7,7 @@
 	<div class="flex min-h-full flex-col">
 		<Header />
 
-		<div class="flex-1">
+		<div class="mb-20 flex-1">
 			<slot />
 		</div>
 	</div>
