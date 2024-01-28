@@ -1,6 +1,8 @@
 <script lang="ts">
-	import Blocker from '$lib/components/interactivity/blocker.svelte';
+	import { goto } from '$app/navigation';
+	import { page } from '$app/stores';
 
+	import Blocker from '$lib/components/interactivity/blocker.svelte';
 	import Icon from '$lib/components/icon.svelte';
 	import Button from '$lib/components/button.svelte';
 
@@ -25,6 +27,11 @@
 	function closeMenu() {
 		open = false;
 	}
+
+	function routeTo(path: string) {
+		closeMenu();
+		goto(path);
+	}
 </script>
 
 <svelte:head>
@@ -42,38 +49,83 @@
 			</Button>
 		</div>
 		<div class="mx-auto hidden gap-4 text-center xl:flex">
-			<Button href="/" classes="flex items-center px-4 pt-[4px] font-bold text-sky-500"
-				>Overview</Button
-			>
 			<Button
-				href="/artists"
-				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
+				onClick={() => {
+					routeTo('/');
+				}}
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
 			>
-				Artists
+				<span
+					class:font-bold={$page.url.pathname === '/'}
+					class:text-sky-500={$page.url.pathname === '/'}
+				>
+					Overview
+				</span>
 			</Button>
 			<Button
-				href="/venue"
-				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
+				onClick={() => {
+					routeTo('/artists');
+				}}
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
 			>
-				Venue
+				<span
+					class:font-bold={$page.url.pathname === '/artists'}
+					class:text-sky-500={$page.url.pathname === '/artists'}
+				>
+					Artists
+				</span>
 			</Button>
 			<Button
-				href="/volunteer"
-				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
+				onClick={() => {
+					routeTo('/venue');
+				}}
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
 			>
-				Volunteer
+				<span
+					class:font-bold={$page.url.pathname === '/venue'}
+					class:text-sky-500={$page.url.pathname === '/venue'}
+				>
+					Venue
+				</span>
 			</Button>
 			<Button
-				href="/sponsors"
-				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
+				onClick={() => {
+					routeTo('/volunteer');
+				}}
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
 			>
-				Sponsors
+				<span
+					class:font-bold={$page.url.pathname === '/volunteer'}
+					class:text-sky-500={$page.url.pathname === '/volunteer'}
+				>
+					Volunteer
+				</span>
 			</Button>
 			<Button
-				href="/faq"
-				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
+				onClick={() => {
+					routeTo('/sponsors');
+				}}
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
 			>
-				FAQ
+				<span
+					class:font-bold={$page.url.pathname === '/sponsors'}
+					class:text-sky-500={$page.url.pathname === '/sponsors'}
+				>
+					Sponsors
+				</span>
+			</Button>
+			<Button
+				onClick={() => {
+					routeTo('/faq');
+				}}
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-500"
+			>
+				<span
+					class:font-bold={$page.url.pathname === '/faq'}
+					class:text-sky-500={$page.url.pathname === '/faq'}
+				>
+					FAQ
+				</span>
 			</Button>
 		</div>
 	</div>
@@ -90,7 +142,88 @@
 			class:ml-0={open}
 			class:ml-4={!open}
 			class="transition-spacing p-4 delay-100 duration-700 lg:px-12 lg:py-8"
-		></div>
+		>
+			<div class="flex flex-col items-start gap-3 p-4 text-left text-2xl">
+				<Button
+					onClick={() => {
+						routeTo('/');
+					}}
+					classes="font-medium hover:text-sky-500"
+				>
+					<span
+						class:font-bold={$page.url.pathname === '/'}
+						class:text-sky-500={$page.url.pathname === '/'}
+					>
+						Overview
+					</span>
+				</Button>
+				<Button
+					onClick={() => {
+						routeTo('/artists');
+					}}
+					classes="font-medium hover:text-sky-500"
+				>
+					<span
+						class:font-bold={$page.url.pathname === '/artists'}
+						class:text-sky-500={$page.url.pathname === '/artists'}
+					>
+						Artists
+					</span>
+				</Button>
+				<Button
+					onClick={() => {
+						routeTo('/venue');
+					}}
+					classes="font-medium hover:text-sky-500"
+				>
+					<span
+						class:font-bold={$page.url.pathname === '/venue'}
+						class:text-sky-500={$page.url.pathname === '/venue'}
+					>
+						Venue
+					</span>
+				</Button>
+				<Button
+					onClick={() => {
+						routeTo('/volunteer');
+					}}
+					classes="font-medium hover:text-sky-500"
+				>
+					<span
+						class:font-bold={$page.url.pathname === '/volunteer'}
+						class:text-sky-500={$page.url.pathname === '/volunteer'}
+					>
+						Volunteer
+					</span>
+				</Button>
+				<Button
+					onClick={() => {
+						routeTo('/sponsors');
+					}}
+					classes="font-medium hover:text-sky-500"
+				>
+					<span
+						class:font-bold={$page.url.pathname === '/sponsors'}
+						class:text-sky-500={$page.url.pathname === '/sponsors'}
+					>
+						Sponsors
+					</span>
+				</Button>
+				<Button
+					onClick={() => {
+						routeTo('/faq');
+					}}
+					classes="font-medium hover:text-sky-500"
+				>
+					<span
+						class:font-bold={$page.url.pathname === '/faq'}
+						class:text-sky-500={$page.url.pathname === '/faq'}
+					>
+						FAQ
+					</span>
+				</Button>
+			</div>
+		</div>
 	</div>
 </div>
 
