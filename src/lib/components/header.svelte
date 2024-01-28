@@ -58,13 +58,13 @@
 				Venue
 			</Button>
 			<Button
-				href="/venue"
+				href="/volunteer"
 				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
 			>
 				Volunteer
 			</Button>
 			<Button
-				href="/venue"
+				href="/sponsors"
 				classes="flex items-center rounded-none px-4 font-medium hover:border-stone-600"
 			>
 				Sponsors
