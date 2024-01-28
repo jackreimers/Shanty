@@ -45,4 +45,25 @@
 	</div>
 </Hero>
 
-<Container></Container>
+<Container>
+	<div class="grid gap-4 lg:grid-cols-3">
+		<div class="rounded bg-gray-100 p-3.5 lg:col-span-2">
+			<div class="rounded bg-white py-20 text-center shadow-inner">
+				<Icon icon="image" classes="text-6xl text-gray-400" />
+			</div>
+		</div>
+		<div class="flex flex-col rounded bg-gray-100 p-3.5">
+			<p class="mb-1 font-semibold">Venue Address</p>
+			<p class="flex-1">
+				Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum
+				lorem sed risus ultricies tristique nulla. Malesuada proin libero nunc consequat
+				interdum varius sit amet.
+			</p>
+			<div>
+				<Button classes="inline-block bg-sky-500 px-5 py-3 font-bold text-white"
+					>Open in Google Maps</Button
+				>
+			</div>
+		</div>
+	</div>
+</Container>
