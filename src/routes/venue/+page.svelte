@@ -54,13 +54,14 @@
 		</div>
 		<div class="flex flex-col rounded bg-gray-100 p-3.5">
 			<p class="mb-1 font-semibold">Venue Address</p>
-			<p class="flex-1">
+			<p class="mb-6 flex-1">
 				Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum
 				lorem sed risus ultricies tristique nulla. Malesuada proin libero nunc consequat
 				interdum varius sit amet.
 			</p>
 			<div>
-				<Button classes="inline-block bg-sky-500 px-5 py-3 font-bold text-white"
+				<Button
+					classes="block bg-sky-500 px-5 py-3 text-center font-bold text-white md:inline-block lg:block"
 					>Open in Google Maps</Button
 				>
 			</div>
