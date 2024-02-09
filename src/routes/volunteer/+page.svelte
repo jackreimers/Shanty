@@ -1,7 +1,5 @@
 <script>
-	import Icon from '$lib/components/icon.svelte';
 	import Hero from '$lib/components/layout/hero.svelte';
-	import Button from '$lib/components/button.svelte';
 	import Container from '$lib/components/layout/container.svelte';
 </script>
 

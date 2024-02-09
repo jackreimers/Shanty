@@ -2,8 +2,6 @@
 	import Hero from '$lib/components/layout/hero.svelte';
 	import Container from '$lib/components/layout/container.svelte';
 	import ArtistCard from '$lib/components/artist-card.svelte';
-	import Icon from '$lib/components/icon.svelte';
-	import Button from '$lib/components/button.svelte';
 </script>
 
 <svelte:head>

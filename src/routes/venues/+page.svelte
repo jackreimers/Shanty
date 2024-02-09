@@ -3,7 +3,6 @@
 	import Hero from '$lib/components/layout/hero.svelte';
 	import Button from '$lib/components/button.svelte';
 	import Container from '$lib/components/layout/container.svelte';
-	import Question from '$lib/components/elements/question.svelte';
 </script>
 
 <svelte:head>
