@@ -82,10 +82,10 @@
 				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
 			>
 				<span
-					class:font-bold={$page.url.pathname === '/venue'}
-					class:text-sky-600={$page.url.pathname === '/venue'}
+					class:font-bold={$page.url.pathname === '/venues'}
+					class:text-sky-600={$page.url.pathname === '/venues'}
 				>
-					Venue
+					Venues
 				</span>
 			</Button>
 			<Button
@@ -172,15 +172,15 @@
 				</Button>
 				<Button
 					onClick={() => {
-						routeTo('/venue');
+						routeTo('/venues');
 					}}
 					classes="font-medium hover:text-sky-600"
 				>
 					<span
-						class:font-bold={$page.url.pathname === '/venue'}
-						class:text-sky-600={$page.url.pathname === '/venue'}
+						class:font-bold={$page.url.pathname === '/venues'}
+						class:text-sky-600={$page.url.pathname === '/venues'}
 					>
-						Venue
+						Venues
 					</span>
 				</Button>
 				<Button

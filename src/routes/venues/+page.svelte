@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Bunbury Sea Shanty Festival | Venue</title>
+	<title>Bunbury Sea Shanty Festival | Venues</title>
 </svelte:head>
 
 <Hero>
@@ -36,7 +36,7 @@
 			</p>
 			<div>
 				<Button
-					classes="block bg-sky-500 px-5 py-3 text-center font-bold text-white md:inline-block lg:block"
+					classes="block rounded bg-sky-500 px-5 py-3 text-center font-bold text-white md:inline-block lg:block"
 					>Open in Google Maps</Button
 				>
 			</div>
