@@ -3,7 +3,7 @@
 	import Hero from '$lib/components/layout/hero.svelte';
 	import Button from '$lib/components/button.svelte';
 	import Container from '$lib/components/layout/container.svelte';
-	import Question from '$lib/components/cards/question.svelte';
+	import Question from '$lib/components/elements/question.svelte';
 	import ArtistCard from '$lib/components/artist-card.svelte';
 </script>
 

@@ -6,16 +6,13 @@
 </script>
 
 {#if onClick != null}
-	<button
-		class="rounded transition-colors duration-500 {classes}"
-		on:click={() => onClick?.call(null)}
-	>
+	<button class="transition-colors duration-500 {classes}" on:click={() => onClick?.call(null)}>
 		<slot>
 			<p>Button</p>
 		</slot>
 	</button>
 {:else}
-	<a {href} {target} class="rounded transition-colors duration-500 {classes}">
+	<a {href} {target} class="transition-colors duration-500 {classes}">
 		<slot>Button</slot>
 	</a>
 {/if}

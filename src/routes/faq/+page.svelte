@@ -3,7 +3,8 @@
 	import Hero from '$lib/components/layout/hero.svelte';
 	import Button from '$lib/components/button.svelte';
 	import Container from '$lib/components/layout/container.svelte';
-	import Question from '$lib/components/cards/question.svelte';
+	import Question from '$lib/components/elements/question.svelte';
+	import Accordian from '$lib/components/elements/accordian.svelte';
 </script>
 
 <svelte:head>
@@ -21,8 +22,12 @@
 </Hero>
 
 <Container>
-	<div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-		<Question question="Question goes here?" answer="This is the answer to the question." />
-		<Question question="Question goes here?" answer="This is the answer to the question." />
+	<div class="flex w-full flex-col gap-4">
+		<Accordian>
+			<p slot="title">What is this question?</p>
+		</Accordian>
+		<Accordian>
+			<p slot="title">What about this question?</p>
+		</Accordian>
 	</div>
 </Container>
