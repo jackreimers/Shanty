@@ -77,7 +77,7 @@
 			</Button>
 			<Button
 				onClick={() => {
-					routeTo('/venue');
+					routeTo('/venues');
 				}}
 				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
 			>
