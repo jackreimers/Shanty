@@ -9,9 +9,9 @@
 	<Button onClick={() => (expanded = !expanded)} classes="w-full text-left">
 		<div
 			class:rounded-b={!expanded}
-			class="flex items-center rounded-t bg-gray-100 p-2.5 md:p-4"
+			class="flex items-center gap-2 rounded-t bg-gray-100 p-2.5 md:p-4"
 		>
-			<div class="flex-1 font-semibold leading-none">
+			<div class="flex-1 font-semibold">
 				<slot name="title">
 					<p>Title</p>
 				</slot>
