@@ -77,7 +77,7 @@
 					class:font-bold={$page.url.pathname === '/artists'}
 					class:text-sky-600={$page.url.pathname === '/artists'}
 				>
-					Artists
+					2024 Lineup
 				</span>
 			</Button>
 			<Button
@@ -95,6 +95,19 @@
 			</Button>
 			<Button
 				onClick={() => {
+					routeTo('/programs');
+				}}
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
+			>
+				<span
+					class:font-bold={$page.url.pathname === '/programs'}
+					class:text-sky-600={$page.url.pathname === '/programs'}
+				>
+					Programs
+				</span>
+			</Button>
+			<Button
+				onClick={() => {
 					routeTo('/volunteer');
 				}}
 				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
@@ -104,19 +117,6 @@
 					class:text-sky-600={$page.url.pathname === '/volunteer'}
 				>
 					Volunteer
-				</span>
-			</Button>
-			<Button
-				onClick={() => {
-					routeTo('/sponsors');
-				}}
-				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
-			>
-				<span
-					class:font-bold={$page.url.pathname === '/sponsors'}
-					class:text-sky-600={$page.url.pathname === '/sponsors'}
-				>
-					Sponsors
 				</span>
 			</Button>
 			<Button
@@ -172,7 +172,7 @@
 						class:font-bold={$page.url.pathname === '/artists'}
 						class:text-sky-600={$page.url.pathname === '/artists'}
 					>
-						Artists
+						2024 Lineup
 					</span>
 				</Button>
 				<Button
@@ -190,6 +190,19 @@
 				</Button>
 				<Button
 					onClick={() => {
+						routeTo('/programs');
+					}}
+					classes="font-medium hover:text-sky-600"
+				>
+					<span
+						class:font-bold={$page.url.pathname === '/programs'}
+						class:text-sky-600={$page.url.pathname === '/programs'}
+					>
+						Programs
+					</span>
+				</Button>
+				<Button
+					onClick={() => {
 						routeTo('/volunteer');
 					}}
 					classes="font-medium hover:text-sky-600"
@@ -199,19 +212,6 @@
 						class:text-sky-600={$page.url.pathname === '/volunteer'}
 					>
 						Volunteer
-					</span>
-				</Button>
-				<Button
-					onClick={() => {
-						routeTo('/sponsors');
-					}}
-					classes="font-medium hover:text-sky-600"
-				>
-					<span
-						class:font-bold={$page.url.pathname === '/sponsors'}
-						class:text-sky-600={$page.url.pathname === '/sponsors'}
-					>
-						Sponsors
 					</span>
 				</Button>
 				<Button

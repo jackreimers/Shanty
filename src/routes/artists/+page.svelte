@@ -20,21 +20,9 @@
 
 <Container>
 	<div class="grid gap-4 min-[500px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-		<ArtistCard
-			name="Artist Name"
-			description="Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla."
-		/>
-		<ArtistCard
-			name="Artist Name"
-			description="Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla."
-		/>
-		<ArtistCard
-			name="Artist Name"
-			description="Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla."
-		/>
-		<ArtistCard
-			name="Artist Name"
-			description="Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla."
-		/>
+		<ArtistCard name="Artist Name" description="Region" />
+		<ArtistCard name="Artist Name" description="Region" />
+		<ArtistCard name="Artist Name" description="Region" />
+		<ArtistCard name="Artist Name" description="Region" />
 	</div>
 </Container>
