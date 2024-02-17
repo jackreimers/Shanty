@@ -26,7 +26,7 @@
                                 </div>
                             </div>
                             -->
-							<div class="md:flex md:border-l-2 md:border-slate-200">
+							<div class="md:flex md:border-x-2 md:border-slate-200">
 								<div class="flex items-center gap-2 p-2 md:mx-auto">
 									<Icon icon="family_restroom" weight={500} />
 									<p class="font-semibold">Family Friendly</p>
