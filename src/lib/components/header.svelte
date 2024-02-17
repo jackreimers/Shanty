@@ -41,10 +41,15 @@
 <header class="z-10 shadow-lg">
 	<div class="container mx-auto px-4 sm:px-6 lg:flex">
 		<div class="flex items-center md:flex-1">
-			<h1 class="flex-1 py-6 font-semibold leading-none lg:text-2xl">
-				Bunbury Sea Shanty Festival
-			</h1>
-			<Button onClick={openMenu} classes="bg-sky-500 p-2 text-white xl:hidden">
+			<a href="/" class="py-2.5">
+				<img
+					src="/images/logo.png"
+					alt="Bunbury Sea Shanty Festival Logo"
+					class="max-h-[60px] lg:max-h-[80px] xl:max-h-[100px]"
+				/>
+			</a>
+			<div class="flex-1" />
+			<Button onClick={openMenu} classes="rounded bg-sky-500 p-2 text-white xl:hidden">
 				<Icon icon="menu" weight={400} />
 			</Button>
 		</div>
