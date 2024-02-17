@@ -64,7 +64,7 @@
 					class:font-bold={$page.url.pathname === '/'}
 					class:text-sky-600={$page.url.pathname === '/'}
 				>
-					Overview
+					Home
 				</span>
 			</Button>
 			<Button
@@ -159,7 +159,7 @@
 						class:font-bold={$page.url.pathname === '/'}
 						class:text-sky-600={$page.url.pathname === '/'}
 					>
-						Overview
+						Home
 					</span>
 				</Button>
 				<Button
