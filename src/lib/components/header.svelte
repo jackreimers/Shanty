@@ -49,7 +49,7 @@
 				/>
 			</a>
 			<div class="flex-1" />
-			<Button onClick={openMenu} classes="rounded bg-sky-500 p-2 text-white xl:hidden">
+			<Button onClick={openMenu} classes="rounded bg-sky-600 p-2 text-white xl:hidden">
 				<Icon icon="menu" weight={400} />
 			</Button>
 		</div>

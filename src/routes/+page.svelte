@@ -14,23 +14,19 @@
 </Hero>
 
 <Container>
-	<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-		<div class="flex-1 rounded bg-gray-100 p-3.5">
-			<h2 class="mb-2 font-semibold">About The Festival</h2>
+	<div class="flex flex-col gap-4 md:flex-row">
+		<div
+			class="block min-h-[150px] flex-1 rounded bg-[url('/images/bunbury-waves.jpg')] bg-cover bg-center"
+		/>
+		<div class="flex-[2] rounded bg-gray-100 p-4 md:p-6">
+			<h2 class="mb-2 text-2xl font-semibold">About The Festival</h2>
 			<p>
-				Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum
-				lorem sed risus ultricies tristique nulla. Malesuada proin libero nunc consequat
-				interdum varius sit amet. Pharetra pharetra massa massa ultricies mi. Est velit
-				egestas dui id ornare arcu odio ut sem. At augue eget arcu dictum varius duis.
-			</p>
-		</div>
-		<div class="flex-1 rounded bg-gray-100 p-3.5">
-			<h2 class="mb-2 font-semibold">Artists</h2>
-			<p>
-				Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum
-				lorem sed risus ultricies tristique nulla. Malesuada proin libero nunc consequat
-				interdum varius sit amet. Pharetra pharetra massa massa ultricies mi. Est velit
-				egestas dui id ornare arcu odio ut sem. At augue eget arcu dictum varius duis.
+				Ahoy, mates! Welcome to the inaugural Bunbury Sea Shanty Festival, where the waves
+				meet the melodies in Western Australia's charming coastal city Bunbury. Join us for
+				a celebration of timeless maritime tunes against the backdrop of Bunbury's stunning
+				shores and enchanting venues. Let's raise our voices and spirits in harmony as we
+				honor the seafaring tradition with music, merriment, and memories to last a
+				lifetime.
 			</p>
 		</div>
 	</div>
