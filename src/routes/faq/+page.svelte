@@ -207,10 +207,87 @@
 	<h2 class="mb-4 text-2xl font-semibold">Volunteers</h2>
 	<div class="mb-12 flex w-full flex-col gap-4">
 		<Accordian>
-			<p slot="title">What is this question?</p>
+			<p slot="title">How can I become a volunteer for the Bunbury Shanty Music Festival?</p>
+			<p slot="content">
+				Yarrr! We'd be thrilled to have you join our crew! To become a volunteer, simply
+				visit our festival website and fill out the volunteer contact form. We'll be in
+				touch with further details and to discuss your role.
+			</p>
 		</Accordian>
 		<Accordian>
-			<p slot="title">What about this question?</p>
+			<p slot="title">What are the requirements to volunteer?</p>
+			<p slot="content">
+				Ahoy, matey! We welcome volunteers of all backgrounds and ages (18 and above).
+				Whether you're a seasoned sailor or a landlubber with a passion for shanties, as
+				long as you have enthusiasm and a positive attitude, you're good to go!
+			</p>
+		</Accordian>
+		<Accordian>
+			<p slot="title">What kind of tasks will I be assigned as a volunteer?</p>
+			<p slot="content">
+				Avast ye! As a volunteer, you'll assist with various tasks such as setting up
+				stages, helping with artist logistics, handing out festival programs, guiding
+				attendees, and much more. We'll find a role that matches your skills and interests.
+			</p>
+		</Accordian>
+		<Accordian>
+			<p slot="title">Will I get any training or guidance as a volunteer?</p>
+			<p slot="content">
+				Aye, aye! We've got your back. Before the festival, we'll provide a comprehensive
+				orientation to familiarize you with your role and responsibilities. There will also
+				be experienced volunteers and coordinators available throughout the festival to
+				guide and support you.
+			</p>
+		</Accordian>
+		<Accordian>
+			<p slot="title">Will I have time to enjoy the festival as a volunteer?</p>
+			<p slot="content">
+				Fear not, me hearties! We want you to have a jolly good time too. While
+				volunteering, you'll have designated breaks and shifts that allow you to enjoy the
+				festival. However, keep in mind that your assigned responsibilities should be your
+				top priority during your shift.
+			</p>
+		</Accordian>
+		<Accordian>
+			<p slot="title">Are there any perks for volunteers?</p>
+			<p slot="content">
+				Shiver me timbers, there are indeed! As a token of our appreciation, volunteers will
+				receive a festival t-shirt, and free tickets to the festival.
+			</p>
+		</Accordian>
+		<Accordian>
+			<p slot="title">Can I choose my shift timings?</p>
+			<p slot="content">
+				Arrr! We'll do our best to accommodate your preferences, but please understand that
+				scheduling volunteers can be quite a puzzle. We'll communicate with you to determine
+				the most suitable shift timings based on your availability.
+			</p>
+		</Accordian>
+		<Accordian>
+			<p slot="title">What if I can no longer volunteer after signing up?</p>
+			<p slot="content">
+				Avast ye, unforeseen circumstances happen! If you can no longer volunteer, please
+				let us know as soon as possible by contacting our volunteer coordinator. We
+				understand that life can be unpredictable, and we'll appreciate your timely
+				communication.
+			</p>
+		</Accordian>
+		<!-- TODO: Gmail email address in below question -->
+		<Accordian>
+			<p slot="title">How can I contact the volunteer coordinator for further questions?</p>
+			<p slot="content">
+				Yo ho ho! If you have any more questions, feel free to reach out to our friendly
+				volunteer coordinator by emailing bunburyshantyfestival@gmail.com. They'll be
+				delighted to assist you and provide all the information you need.
+			</p>
+		</Accordian>
+		<Accordian>
+			<p slot="title">Can I bring my friends to volunteer with me?</p>
+			<p slot="content">
+				Absolutely! The more, the merrier! If you have friends who are interested in
+				volunteering, encourage them to apply too. Just make sure they fill out their own
+				application forms so we can assign them appropriate roles.
+			</p>
 		</Accordian>
 	</div>
 </Container>
