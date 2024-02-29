@@ -20,6 +20,8 @@
 </Hero>
 
 <Container>
+	<p class="text-2xl font-semibold">Coming soon!</p>
+	<!--
 	<div class="grid gap-4 lg:grid-cols-3">
 		<div class="rounded bg-gray-100 p-3.5 lg:col-span-2">
 			<div class="rounded bg-white py-20 text-center shadow-inner">
@@ -41,4 +43,5 @@
 			</div>
 		</div>
 	</div>
+	-->
 </Container>

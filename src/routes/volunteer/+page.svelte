@@ -17,4 +17,6 @@
 	</div>
 </Hero>
 
-<Container></Container>
+<Container>
+	<p class="text-2xl font-semibold">Coming soon!</p>
+</Container>
