@@ -132,6 +132,19 @@
 					FAQ
 				</span>
 			</Button>
+			<Button
+				onClick={() => {
+					routeTo('/contact');
+				}}
+				classes="flex items-center rounded-none px-4 font-medium hover:text-sky-600"
+			>
+				<span
+					class:font-bold={$page.url.pathname === '/contact'}
+					class:text-sky-600={$page.url.pathname === '/contact'}
+				>
+					Contact
+				</span>
+			</Button>
 		</div>
 	</div>
 </header>
@@ -225,6 +238,19 @@
 						class:text-sky-600={$page.url.pathname === '/faq'}
 					>
 						FAQ
+					</span>
+				</Button>
+				<Button
+					onClick={() => {
+						routeTo('/contact');
+					}}
+					classes="font-medium hover:text-sky-600"
+				>
+					<span
+						class:font-bold={$page.url.pathname === '/contact'}
+						class:text-sky-600={$page.url.pathname === '/contact'}
+					>
+						Contact
 					</span>
 				</Button>
 			</div>
