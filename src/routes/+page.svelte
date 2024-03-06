@@ -5,7 +5,7 @@
 
 <Hero>
 	<div slot="content">
-		<p class="mb-4 text-2xl font-bold lg:text-4xl">Bunbury's Newest Folk Music Event</p>
+		<p class="header mb-4 text-2xl font-bold lg:text-4xl">Bunbury's Newest Folk Music Event</p>
 		<p class="max-w-prose">
 			Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem
 			sed risus ultricies tristique nulla.
@@ -19,7 +19,7 @@
 			class="block min-h-[150px] flex-1 rounded bg-[url('/images/bunbury-waves.jpg')] bg-cover bg-center"
 		/>
 		<div class="flex-[2] rounded bg-gray-100 p-4 md:p-6">
-			<h2 class="mb-2 text-2xl font-semibold">About The Festival</h2>
+			<h2 class="header mb-2 text-2xl font-semibold">About The Festival</h2>
 			<p>
 				Ahoy, mates! Welcome to the inaugural Bunbury Sea Shanty Festival, where the waves
 				meet the melodies in Western Australia's charming coastal city Bunbury. Join us for

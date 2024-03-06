@@ -10,7 +10,7 @@
 
 <Hero>
 	<div slot="content">
-		<p class="mb-4 text-2xl font-bold lg:text-4xl">Festival Lineup</p>
+		<p class="header mb-4 text-2xl font-bold lg:text-4xl">Festival Lineup</p>
 		<p class="max-w-prose">
 			Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem
 			sed risus ultricies tristique nulla.
