@@ -10,8 +10,7 @@
 
 <Hero>
 	<div slot="content">
-		<p class="header mb-4 text-2xl font-bold lg:text-4xl">Frequently Asked Questions</p>
-		<p class="max-w-prose"></p>
+		<p class="header text-2xl font-bold lg:text-4xl">Frequently Asked Questions</p>
 	</div>
 </Hero>
 
