@@ -45,7 +45,7 @@
 				<img
 					src="/images/logo.png"
 					alt="Bunbury Sea Shanty Festival Logo"
-					class="max-h-[60px] lg:max-h-[80px] xl:max-h-[100px]"
+					class="max-h-[100px] lg:max-h-[120px] xl:max-h-[150px]"
 				/>
 			</a>
 			<div class="flex-1" />
