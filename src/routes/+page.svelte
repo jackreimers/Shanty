@@ -7,8 +7,8 @@
 	<div slot="content">
 		<p class="header mb-4 text-2xl font-bold lg:text-4xl">Bunbury's Newest Folk Music Event</p>
 		<p class="max-w-prose">
-			Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum lorem
-			sed risus ultricies tristique nulla.
+			Set sail for a weekend of sea shanties and folk music at Bunbury's newest maritime
+			extravaganza!
 		</p>
 	</div>
 </Hero>
