@@ -15,7 +15,7 @@
 </Hero>
 
 <Container>
-	<h2 class="header mb-4 text-2xl font-semibold">Entertainers</h2>
+	<h2 class="header mb-4 text-3xl font-semibold">Entertainers</h2>
 	<div class="mb-12 flex w-full flex-col gap-4">
 		<Accordian>
 			<p slot="title">How can I apply to perform at the Bunbury Shanty Music Festival?</p>
@@ -101,7 +101,7 @@
 		</Accordian>
 	</div>
 
-	<h2 class="header mb-4 text-2xl font-semibold">Sponsors</h2>
+	<h2 class="header mb-4 text-3xl font-semibold">Sponsors</h2>
 	<div class="mb-12 flex w-full flex-col gap-4">
 		<Accordian>
 			<p slot="title">What is the Bunbury Shanty Music Festival?</p>
@@ -200,7 +200,7 @@
 		</Accordian>
 	</div>
 
-	<h2 class="header mb-4 text-2xl font-semibold">Volunteers</h2>
+	<h2 class="header mb-4 text-3xl font-semibold">Volunteers</h2>
 	<div class="mb-12 flex w-full flex-col gap-4">
 		<Accordian>
 			<p slot="title">How can I become a volunteer for the Bunbury Shanty Music Festival?</p>
