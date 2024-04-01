@@ -190,19 +190,6 @@
 				</Button>
 				<Button
 					onClick={() => {
-						routeTo('/programs');
-					}}
-					classes="font-medium hover:text-sky-600"
-				>
-					<span
-						class:font-bold={$page.url.pathname === '/programs'}
-						class:text-sky-600={$page.url.pathname === '/programs'}
-					>
-						Programs
-					</span>
-				</Button>
-				<Button
-					onClick={() => {
 						routeTo('/volunteer');
 					}}
 					classes="font-medium hover:text-sky-600"
