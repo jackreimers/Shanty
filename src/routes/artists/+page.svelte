@@ -43,7 +43,6 @@
 		<ArtistCard name="Irish Session" description="Region" />
 		<ArtistCard name="The Dunn Bay Wailers" description="Region" />
 		<ArtistCard name="Mucky Duck Bush Band" description="Region" />
-		<ArtistCard name="Naked Swim" description="Region" />
 		<ArtistCard name="The Shantylillies" description="Region" />
 		<ArtistCard name="Peter Budgen" description="Region" />
 	</div>
