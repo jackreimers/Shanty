@@ -31,10 +31,15 @@
 		</div>
 	</div>
 	<h2 class="header mb-2 mt-8 text-2xl font-semibold sm:text-3xl">Our Sponsors</h2>
-	<div class="grid grid-cols-2 items-center gap-6 rounded bg-gray-100 p-4 md:p-6 lg:grid-cols-4">
-		<img src="/images/cob.png" alt="City of Bunbury logo" />
-		<img src="/images/staidan.png" alt="St Aidans Winery Logo" />
-		<img src="/images/svitzer.png" alt="Svitzer Logo" />
-		<img src="/images/aqwest.png" alt="Aqwest Logo" />
+	<div class="grid grid-cols-2 gap-4 rounded bg-gray-100 p-4 md:gap-8 md:p-6 lg:grid-cols-3">
+		<div class="flex items-center rounded bg-white p-4 md:p-6">
+			<img src="/images/cob.png" alt="City of Bunbury logo" />
+		</div>
+		<div class="flex items-center rounded bg-white p-4 md:p-6">
+			<img src="/images/southernports.png" alt="Southern Ports Logo" />
+		</div>
+		<div class="flex items-center rounded bg-white p-4 md:p-6">
+			<img src="/images/aqwest.png" alt="Aqwest Logo" />
+		</div>
 	</div>
 </Container>
