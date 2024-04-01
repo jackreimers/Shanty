@@ -34,9 +34,11 @@
 							</div>
 							<div class="mx-auto w-full text-center">
 								<Button
+									href="https://events.humanitix.com/the-bunbury-sea-shanty-festival"
+									target="_blank"
 									classes="block rounded bg-sky-600 p-3 font-bold text-white shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 								>
-									Tickets Coming Soon
+									Tickets
 								</Button>
 							</div>
 						</div>
