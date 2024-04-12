@@ -16,28 +16,64 @@
 </Hero>
 
 <Container>
-	<p class="text-2xl font-semibold">Coming soon!</p>
-	<!--
-	<div class="grid gap-4 lg:grid-cols-3">
-		<div class="rounded bg-gray-100 p-3.5 lg:col-span-2">
-			<div class="rounded bg-white py-20 text-center shadow-inner">
-				<Icon icon="image" classes="text-6xl text-gray-400" />
+	<div class="mb-4 grid gap-4 lg:grid-cols-2">
+		<div class="rounded bg-gray-100 p-3.5">
+			<div class="rounded bg-white p-4 text-center shadow-inner">
+				<img
+					src="/images/seafarermission.jpg"
+					alt="Bunbury Mission to Seafarers Logo"
+					class="mx-auto max-h-[200px]"
+				/>
 			</div>
 		</div>
 		<div class="flex flex-col rounded bg-gray-100 p-3.5">
-			<p class="mb-1 font-semibold">Venue Address</p>
-			<p class="mb-6 flex-1">
-				Fermentum dui faucibus in ornare quam viverra orci. Non diam phasellus vestibulum
-				lorem sed risus ultricies tristique nulla. Malesuada proin libero nunc consequat
-				interdum varius sit amet.
-			</p>
-			<div>
-				<Button
-					classes="block rounded bg-sky-500 px-5 py-3 text-center font-bold text-white md:inline-block lg:block"
-					>Open in Google Maps</Button
-				>
-			</div>
+			<p class="mb-1 font-semibold sm:text-2xl">Bunbury Mission To Seafarers</p>
+			<p class="mb-6 flex-1">17 Victoria St, Bunbury, WA, Australia, Western Australia</p>
 		</div>
 	</div>
-	-->
+	<div class="mb-4 grid gap-4 lg:grid-cols-2">
+		<div class="rounded bg-gray-100 p-3.5">
+			<div class="rounded bg-white p-4 text-center shadow-inner">
+				<img
+					src="/images/dolphincenter.png"
+					alt="Bunbury Dolphin Discover Centre Logo"
+					class="mx-auto max-h-[200px]"
+				/>
+			</div>
+		</div>
+		<div class="flex flex-col rounded bg-gray-100 p-3.5">
+			<p class="mb-1 font-semibold sm:text-2xl">Dolphin Discovery Centre</p>
+			<p class="mb-6 flex-1">Koomabana Dr, Bunbury, WA, Australia, Western Australia</p>
+		</div>
+	</div>
+	<div class="mb-4 grid gap-4 lg:grid-cols-2">
+		<div class="rounded bg-gray-100 p-3.5">
+			<div class="rounded bg-white p-4 text-center shadow-inner">
+				<img
+					src="/images/froth.jpg"
+					alt="Froth Craft Brewery Logo"
+					class="mx-auto max-h-[200px]"
+				/>
+			</div>
+		</div>
+		<div class="flex flex-col rounded bg-gray-100 p-3.5">
+			<p class="mb-1 font-semibold sm:text-2xl">Froth Craft Brewery</p>
+			<p class="mb-6 flex-1">12 Victoria St, Bunbury WA 6230</p>
+		</div>
+	</div>
+	<div class="mb-4 grid gap-4 lg:grid-cols-2">
+		<div class="rounded bg-gray-100 p-3.5">
+			<div class="rounded bg-white p-4 text-center shadow-inner">
+				<img
+					src="/images/koombanasailing.png"
+					alt="Koombana Bay Sailing Club Logo"
+					class="mx-auto max-h-[200px]"
+				/>
+			</div>
+		</div>
+		<div class="flex flex-col rounded bg-gray-100 p-3.5">
+			<p class="mb-1 font-semibold sm:text-2xl">Koombana Bay Sailing Club</p>
+			<p class="mb-6 flex-1">Anchorage Cv, Bunbury, WA, Australia, Western Australia</p>
+		</div>
+	</div>
 </Container>
