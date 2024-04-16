@@ -35,21 +35,6 @@
 		<div class="rounded bg-gray-100 p-3.5">
 			<div class="rounded bg-white p-4 text-center shadow-inner">
 				<img
-					src="/images/dolphincenter.png"
-					alt="Bunbury Dolphin Discover Centre Logo"
-					class="mx-auto max-h-[200px]"
-				/>
-			</div>
-		</div>
-		<div class="flex flex-col rounded bg-gray-100 p-3.5">
-			<p class="mb-1 font-semibold sm:text-2xl">Dolphin Discovery Centre</p>
-			<p class="mb-6 flex-1">Koomabana Dr, Bunbury, WA, Australia, Western Australia</p>
-		</div>
-	</div>
-	<div class="mb-4 grid gap-4 lg:grid-cols-2">
-		<div class="rounded bg-gray-100 p-3.5">
-			<div class="rounded bg-white p-4 text-center shadow-inner">
-				<img
 					src="/images/froth.jpg"
 					alt="Froth Craft Brewery Logo"
 					class="mx-auto max-h-[200px]"
