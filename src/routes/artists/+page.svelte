@@ -24,7 +24,7 @@
 		<ArtistCard name="Rum Skull" description="Region" />
 		<ArtistCard name="Foc's'l Firkins" description="Region" />
 		<ArtistCard name="Lost Quays" description="Region" />
-		<ArtistCard name="Royal Australian Navy Band" description="Region" />
+		<ArtistCard name="She Shants" description="Region" />
 		<ArtistCard name="The Anchormen" description="Region" />
 		<ArtistCard name="Salty Sea Dogs" description="Region" />
 		<ArtistCard name="The Rust Buckets" description="Region" />
@@ -43,7 +43,7 @@
 		<ArtistCard name="Irish Session" description="Region" />
 		<ArtistCard name="The Dunn Bay Wailers" description="Region" />
 		<ArtistCard name="Mucky Duck Bush Band" description="Region" />
-		<ArtistCard name="The Shantylillies" description="Region" />
+		<ArtistCard name="Warralakin" description="Region" />
 		<ArtistCard name="Peter Budgen" description="Region" />
 	</div>
 </Container>
