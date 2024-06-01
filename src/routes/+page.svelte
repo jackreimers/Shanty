@@ -30,6 +30,10 @@
 			</p>
 		</div>
 	</div>
+	<div class="my-8 overflow-hidden rounded">
+		<img src="/images/program-1.jpg" />
+		<img src="/images/program-2.jpg" />
+	</div>
 	<h2 class="header mb-2 mt-8 text-2xl font-semibold sm:text-3xl">Our Sponsors</h2>
 	<div
 		class="grid grid-cols-2 grid-rows-2 gap-4 rounded bg-gray-100 p-4 md:gap-8 md:p-6 lg:grid-cols-3 lg:grid-rows-1"
