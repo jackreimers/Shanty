@@ -1,6 +1,8 @@
 <script>
 	import Hero from '$lib/components/layout/hero.svelte';
 	import Container from '$lib/components/layout/container.svelte';
+	import Icon from '$lib/components/icon.svelte';
+	import Button from '$lib/components/button.svelte';
 </script>
 
 <Hero>
@@ -31,6 +33,13 @@
 		</div>
 	</div>
 	<div class="my-8 overflow-hidden rounded">
+		<Button
+			href="/program.pdf"
+			classes="mb-2 inline-block rounded bg-sky-600 p-2 font-semibold text-white"
+		>
+			<Icon icon="download" />
+			Download Program
+		</Button>
 		<img src="/images/program-1.jpg" />
 		<img src="/images/program-2.jpg" />
 	</div>
