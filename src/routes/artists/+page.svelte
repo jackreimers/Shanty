@@ -19,31 +19,33 @@
 </Hero>
 
 <Container>
+	<div class="mb-4 grid gap-4 min-[500px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+		<ArtistCard name="Lost Quays" imageUrl="/images/bands/lost-quays.jpeg" />
+		<ArtistCard name="Salty Sirens" imageUrl="/images/bands/salty-sirens.jpeg" />
+		<ArtistCard name="Foc's'l Firkins" imageUrl="/images/bands/focsle-firkins.jpeg" />
+		<ArtistCard name="Rum Skull" imageUrl="/images/bands/rumskull.jpeg" />
+	</div>
 	<div class="grid gap-4 min-[500px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-		<ArtistCard name="Salty Sirens" description="Region" />
-		<ArtistCard name="Rum Skull" description="Region" />
-		<ArtistCard name="Foc's'l Firkins" description="Region" />
-		<ArtistCard name="Lost Quays" description="Region" />
-		<ArtistCard name="She Shants" description="Region" />
-		<ArtistCard name="The Anchormen" description="Region" />
-		<ArtistCard name="Salty Sea Dogs" description="Region" />
-		<ArtistCard name="The Rust Buckets" description="Region" />
-		<ArtistCard name="Boodji Creek" description="Region" />
-		<ArtistCard name="Duality" description="Region" />
-		<ArtistCard name="Sunset Coast Shanty Crew" description="Region" />
-		<ArtistCard name="Lee Shore Songs" description="Region" />
-		<ArtistCard name="Spirit of Alba" description="Region" />
-		<ArtistCard name="Amity Rogues" description="Region" />
-		<ArtistCard name="Poets Breakfast" description="Region" />
-		<ArtistCard name="Rum Jungle" description="Region" />
-		<ArtistCard name="The Salt Lake Shantymen" description="Region" />
-		<ArtistCard name="The Mandurah Mariners" description="Region" />
-		<ArtistCard name="Stigwood" description="Region" />
-		<ArtistCard name="Michael Ward Trio" description="Region" />
-		<ArtistCard name="Irish Session" description="Region" />
-		<ArtistCard name="The Dunn Bay Wailers" description="Region" />
-		<ArtistCard name="Mucky Duck Bush Band" description="Region" />
-		<ArtistCard name="Warralakin" description="Region" />
-		<ArtistCard name="Peter Budgen" description="Region" />
+		<ArtistCard name="She Shants" />
+		<ArtistCard name="The Anchormen" />
+		<ArtistCard name="Salty Sea Dogs" />
+		<ArtistCard name="The Rust Buckets" />
+		<ArtistCard name="Boodji Creek" />
+		<ArtistCard name="Duality" />
+		<ArtistCard name="Sunset Coast Shanty Crew" />
+		<ArtistCard name="Lee Shore Songs" />
+		<ArtistCard name="Spirit of Alba" />
+		<ArtistCard name="Amity Rogues" />
+		<ArtistCard name="Poets Breakfast" />
+		<ArtistCard name="Rum Jungle" />
+		<ArtistCard name="The Salt Lake Shantymen" />
+		<ArtistCard name="The Mandurah Mariners" />
+		<ArtistCard name="Stigwood" />
+		<ArtistCard name="Michael Ward Trio" />
+		<ArtistCard name="Irish Session" />
+		<ArtistCard name="The Dunn Bay Wailers" />
+		<ArtistCard name="Mucky Duck Bush Band" />
+		<ArtistCard name="Warralakin" />
+		<ArtistCard name="Peter Budgen" />
 	</div>
 </Container>
