@@ -27,7 +27,7 @@
 				meet the melodies in Western Australia's charming coastal city Bunbury. Join us for
 				a celebration of timeless maritime tunes against the backdrop of Bunbury's stunning
 				shores and enchanting venues. Let's raise our voices and spirits in harmony as we
-				honor the seafaring tradition with music, merriment, and memories to last a
+				honour the seafaring tradition with music, merriment, and memories to last a
 				lifetime.
 			</p>
 		</div>
