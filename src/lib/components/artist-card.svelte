@@ -1,7 +1,6 @@
 <script lang="ts">
-	import Icon from '$lib/components/icon.svelte';
-
 	export let name: string;
+	export let description: string | null = null;
 	export let imageUrl: string | null = null;
 </script>
 
@@ -9,13 +8,8 @@
 	{#if imageUrl}
 		<img src={imageUrl} alt={name} class="mb-3.5 w-full rounded" />
 	{/if}
-	<!--
-	<div class="mb-4 rounded bg-white py-20 text-center shadow-inner">
-		<Icon icon="image" classes="text-6xl text-gray-400" />
-	</div>
-	-->
-	<p class="font-semibold">{name}</p>
-	<!--
-	<p>{description}</p>
-	-->
+	<p class="text-xl font-semibold">{name}</p>
+	{#if description}
+		<p class="mt-2.5">{description}</p>
+	{/if}
 </div>

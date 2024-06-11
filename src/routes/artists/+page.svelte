@@ -19,11 +19,25 @@
 </Hero>
 
 <Container>
+	<h2 class="header text-center text-4xl">Bands</h2>
 	<div class="mb-4 grid gap-4 min-[500px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-		<ArtistCard name="Lost Quays" imageUrl="/images/bands/lost-quays.jpeg" />
-		<ArtistCard name="Salty Sirens" imageUrl="/images/bands/salty-sirens.jpeg" />
+		<ArtistCard
+			name="Lost Quays"
+			description="Hailing from the port of Fremantle, the Lost Quays is an eight-piece shanty band. Their repertoire includes many of the standards of the shanty world, plus a number of originals focussing on stories of the shipwrecks and daring sailors around the coast of WA and beyond."
+			imageUrl="/images/bands/lost-quays.jpeg"
+		/>
+
+		<ArtistCard
+			name="Salty Sirens"
+			description="The Salty Sirens share traditional sea shanties, she shanties, and sea songs with a modern, queer twist. Accompanied by accordion ‘Moni’ and occasionally backed by a ragtag band of Irate Pirates, The Salty Sirens share tales of hard work, daring adventure, defiance and debauchery. These aren’t your Grandpa’s sea shanties!"
+			imageUrl="/images/bands/salty-sirens.jpeg"
+		/>
 		<ArtistCard name="Foc's'l Firkins" imageUrl="/images/bands/focsle-firkins.jpeg" />
-		<ArtistCard name="Rum Skull" imageUrl="/images/bands/rumskull.jpeg" />
+		<ArtistCard
+			name="Rumskull"
+			description="Infamous they are for whipping their crew into a frenzy, Rumskull bellow out the most rollicking sea shanties ever to rattle a pirate’s gold earring. Whose event will they shanghai next? Know only this: if your head be pounding, your dancing shoes be trampled and your singing voice be hoarse, it's likely you have run aground and gone down with the bad ship Rumskull."
+			imageUrl="/images/bands/rumskull.jpeg"
+		/>
 	</div>
 	<div class="grid gap-4 min-[500px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 		<ArtistCard name="She Shants" />
