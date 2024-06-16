@@ -12,7 +12,7 @@
 			<Icon {icon} />
 		</div>
 	{/if}
-	<h2 class="header text-4xl leading-none">
+	<h2 class="header text-2xl font-bold leading-none lg:text-4xl">
 		{title}
 	</h2>
 </div>
