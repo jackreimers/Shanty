@@ -3,6 +3,8 @@
 	import Hero from '$lib/components/layout/hero.svelte';
 	import Button from '$lib/components/button.svelte';
 	import Container from '$lib/components/layout/container.svelte';
+	import SectionCard from '$lib/components/layout/section-card.svelte';
+	import SectionHeader from '$lib/components/layout/section-header.svelte';
 </script>
 
 <svelte:head>
@@ -16,49 +18,69 @@
 </Hero>
 
 <Container>
-	<div class="mb-4 grid gap-4 lg:grid-cols-2">
-		<div class="rounded bg-gray-100 p-3.5">
-			<div class="rounded bg-white p-4 text-center shadow-inner">
-				<img
-					src="/images/seafarermission.jpg"
-					alt="Bunbury Mission to Seafarers Logo"
-					class="mx-auto max-h-[200px]"
-				/>
+	<div class="flex flex-col gap-6">
+		<SectionCard>
+			<SectionHeader title="Bunbury Mission To Seafarers" icon="location_on" />
+			<div class="flex gap-4">
+				<div class="flex-1 rounded bg-white p-2">
+					<img
+						src="/images/seafarermission.jpg"
+						alt="Bunbury Mission to Seafarers Logo"
+						class="mx-auto max-h-[200px]"
+					/>
+				</div>
+				<div class="flex-1">
+					<p><span class="font-semibold">Address:</span> 17 Victoria St, Bunbury</p>
+				</div>
 			</div>
-		</div>
-		<div class="flex flex-col rounded bg-gray-100 p-3.5">
-			<p class="mb-1 font-semibold sm:text-2xl">Bunbury Mission To Seafarers</p>
-			<p class="mb-6 flex-1">17 Victoria St, Bunbury, WA, Australia, Western Australia</p>
-		</div>
-	</div>
-	<div class="mb-4 grid gap-4 lg:grid-cols-2">
-		<div class="rounded bg-gray-100 p-3.5">
-			<div class="rounded bg-white p-4 text-center shadow-inner">
-				<img
-					src="/images/froth.jpg"
-					alt="Froth Craft Brewery Logo"
-					class="mx-auto max-h-[200px]"
-				/>
+		</SectionCard>
+		<SectionCard>
+			<SectionHeader title="Froth Craft Brewery" icon="location_on" />
+			<div class="flex gap-4">
+				<div class="flex-1 rounded bg-white p-2">
+					<img
+						src="/images/froth.jpg"
+						alt="Froth Craft Brewery Logo"
+						class="mx-auto max-h-[200px]"
+					/>
+				</div>
+				<div class="flex-1">
+					<p><span class="font-semibold">Address:</span> 12 Victoria St, Bunbury</p>
+				</div>
 			</div>
-		</div>
-		<div class="flex flex-col rounded bg-gray-100 p-3.5">
-			<p class="mb-1 font-semibold sm:text-2xl">Froth Craft Brewery</p>
-			<p class="mb-6 flex-1">12 Victoria St, Bunbury WA 6230</p>
-		</div>
-	</div>
-	<div class="mb-4 grid gap-4 lg:grid-cols-2">
-		<div class="rounded bg-gray-100 p-3.5">
-			<div class="rounded bg-white p-4 text-center shadow-inner">
-				<img
-					src="/images/koombanasailing.png"
-					alt="Koombana Bay Sailing Club Logo"
-					class="mx-auto max-h-[200px]"
-				/>
+		</SectionCard>
+		<SectionCard>
+			<SectionHeader title="Koombana Bay Sailing Club" icon="location_on" />
+			<div class="flex gap-4">
+				<div class="flex-1 rounded bg-white p-2">
+					<img
+						src="/images/koombanasailing.png"
+						alt="Koombana Bay Sailing Club Logo"
+						class="mx-auto max-h-[200px]"
+					/>
+				</div>
+				<div class="flex-1">
+					<p><span class="font-semibold">Address:</span> Anchorage Cv, Bunbury</p>
+				</div>
 			</div>
-		</div>
-		<div class="flex flex-col rounded bg-gray-100 p-3.5">
-			<p class="mb-1 font-semibold sm:text-2xl">Koombana Bay Sailing Club</p>
-			<p class="mb-6 flex-1">Anchorage Cv, Bunbury, WA, Australia, Western Australia</p>
-		</div>
+		</SectionCard>
+		<SectionCard>
+			<SectionHeader
+				title="Bunbury Geographe Seniors and Community Centre"
+				icon="location_on"
+			/>
+			<div class="flex gap-4">
+				<div class="flex-1 rounded bg-white p-2">
+					<img
+						src="/images/bgscc.jpeg"
+						alt="Koombana Bay Sailing Club Logo"
+						class="mx-auto max-h-[200px]"
+					/>
+				</div>
+				<div class="flex-1">
+					<p><span class="font-semibold">Address:</span> 1 Stirling St, Bunbury</p>
+				</div>
+			</div>
+		</SectionCard>
 	</div>
 </Container>
