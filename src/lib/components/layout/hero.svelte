@@ -16,7 +16,7 @@
 				<div
 					class="mx-auto mb-3 w-full max-w-[800px] rounded bg-[rgb(53,98,108)] p-2 text-white shadow-lg"
 				>
-					<div class="grid grid-rows-3 gap-2 md:grid-cols-2 md:grid-rows-1">
+					<div class="grid grid-rows-2 gap-2 md:grid-cols-2 md:grid-rows-1">
 						<div class="flex items-center gap-2 p-2 md:mx-auto">
 							<Icon icon="calendar_month" weight={500} />
 							<p class="font-semibold">28th - 30th June 2024</p>

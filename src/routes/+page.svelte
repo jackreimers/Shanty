@@ -32,11 +32,11 @@
 		</SectionCard>
 		<SectionCard>
 			<div class="mb-6 flex items-center">
-				<SectionHeader title="Festival Program" icon="newsmode" classes="mb-0 flex-1" />
+				<SectionHeader title="Festival Program" icon="newsmode" classes="!mb-0 flex-1" />
 				<Button
 					href="/program.pdf"
 					target="_blank"
-					classes="mb-2 inline-block rounded bg-sky-600 px-3.5 py-2.5 font-semibold text-white"
+					classes="inline-block rounded bg-sky-600 px-3.5 py-2.5 font-semibold text-white"
 				>
 					<span class="mx-1">Download</span>
 					<Icon icon="download" />
