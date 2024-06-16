@@ -32,6 +32,8 @@
 	{/if}
 	<p class="text-xl font-semibold">{name}</p>
 	{#if description}
-		<p class="cutoff-text mt-2.5">{description}</p>
+		<div class="cutoff-text mt-2.5">
+			<p>{description}</p>
+		</div>
 	{/if}
 </div>

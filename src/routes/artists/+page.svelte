@@ -122,7 +122,7 @@
 		</SectionCard>
 		<SectionCard>
 			<SectionHeader title="Activities" icon="celebration" />
-			<div class="grid gap-4 min-[500px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+			<div class="grid gap-4 min-[500px]:grid-cols-2 lg:grid-cols-3">
 				<ArtistCard name="Bush Poets Breakfast" />
 				<ArtistCard name="Folk Club" />
 				<ArtistCard name="International Dance" />
