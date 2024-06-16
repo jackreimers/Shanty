@@ -5,33 +5,21 @@
 </script>
 
 <div class="mb-8 bg-[url('/images/banner.png')] bg-cover bg-bottom">
-	<div class="container mx-auto px-3.5 py-10 sm:px-6 lg:py-32">
-		<div class="inline-block rounded bg-amber-50 p-2">
+	<Container classes="py-10 lg:py-32">
+		<div class="inline-block rounded bg-gray-100 p-6">
 			<slot name="content" />
 		</div>
-	</div>
+	</Container>
 	<slot>
 		<div class="bg-gradient-to-b from-transparent from-50% to-white to-50%">
 			<Container>
-				<div class="mx-auto mb-3 w-full max-w-[800px] rounded bg-white p-2 shadow-lg">
-					<div class="grid grid-rows-3 gap-2 md:grid-cols-3 md:grid-rows-1">
+				<div
+					class="mx-auto mb-3 w-full max-w-[800px] rounded bg-[rgb(53,98,108)] p-2 text-white shadow-lg"
+				>
+					<div class="grid grid-rows-3 gap-2 md:grid-cols-2 md:grid-rows-1">
 						<div class="flex items-center gap-2 p-2 md:mx-auto">
 							<Icon icon="calendar_month" weight={500} />
 							<p class="font-semibold">28th - 30th June 2024</p>
-						</div>
-						<!--
-                            <div class="md:flex md:border-x-2 md:border-slate-200">
-                                <div class="flex items-center gap-2 p-2 md:mx-auto">
-                                    <Icon icon="artist" weight={500} />
-                                    <p class="font-semibold">100 Artists</p>
-                                </div>
-                            </div>
-                            -->
-						<div class="md:flex md:border-l-2 md:border-slate-200">
-							<div class="flex items-center gap-2 p-2 md:mx-auto">
-								<Icon icon="family_restroom" weight={500} />
-								<p class="font-semibold">Family Friendly</p>
-							</div>
 						</div>
 						<div class="mx-auto w-full text-center">
 							<Button
@@ -39,7 +27,7 @@
 								target="_blank"
 								classes="block rounded bg-sky-600 p-3 font-bold text-white shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 							>
-								Tickets
+								Get Tickets
 							</Button>
 						</div>
 					</div>

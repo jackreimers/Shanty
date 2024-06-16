@@ -2,6 +2,7 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 
+	import Container from '$lib/components/layout/container.svelte';
 	import Blocker from '$lib/components/interactivity/blocker.svelte';
 	import Icon from '$lib/components/icon.svelte';
 	import Button from '$lib/components/button.svelte';
@@ -38,8 +39,8 @@
 	<title>Bunbury Sea Shanty Festival</title>
 </svelte:head>
 
-<header class="z-10 bg-amber-50 shadow-lg">
-	<div class="container mx-auto px-4 sm:px-6 lg:flex">
+<header class="z-10 bg-[rgb(53,98,108)] text-white shadow-lg">
+	<Container classes="lg:flex">
 		<div class="flex items-center md:flex-1">
 			<a href="/" class="py-2.5">
 				<img
@@ -133,7 +134,7 @@
 				</span>
 			</Button>
 		</div>
-	</div>
+	</Container>
 </header>
 
 <div
