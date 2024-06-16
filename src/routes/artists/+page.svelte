@@ -56,28 +56,68 @@
 					<p class="mr-2 font-semibold">Plus many more great bands!</p>
 				</div>
 			</div>
-			<div class="grid gap-4 min-[500px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-				<ArtistCard name="She Shants" />
-				<ArtistCard name="The Anchormen" />
-				<ArtistCard name="Salty Sea Dogs" />
-				<ArtistCard name="The Rust Buckets" />
-				<ArtistCard name="Boodji Creek" />
-				<ArtistCard name="Duality" />
-				<ArtistCard name="Sunset Coast Shanty Crew" />
-				<ArtistCard name="Lee Shore Songs" />
-				<ArtistCard name="Spirit of Alba" />
-				<ArtistCard name="Amity Rogues" />
-				<ArtistCard name="Poets Breakfast" />
-				<ArtistCard name="Rum Jungle" />
-				<ArtistCard name="The Salt Lake Shantymen" />
-				<ArtistCard name="The Mandurah Mariners" />
-				<ArtistCard name="Stigwood" />
-				<ArtistCard name="Michael Ward Trio" />
-				<ArtistCard name="Irish Session" />
-				<ArtistCard name="The Dunn Bay Wailers" />
-				<ArtistCard name="Mucky Duck Bush Band" />
-				<ArtistCard name="Warralakin" />
+			<div class="grid gap-4 min-[500px]:grid-cols-2 lg:grid-cols-3">
+				<ArtistCard
+					name="Amity Rogues"
+					description="Formerly known as ‘The Shantylillies’, the ‘Amity Rogues’ have gone through a bit of a transition in recent times.  Drastically reduced in numbers, but not in shanty spirit and welcoming a male human into their fold, they are ready to continue on our shanty journey."
+				/>
+				<ArtistCard
+					name="Boodji Creek"
+					description="This five-piece acoustic America, Bluegrass and Old-Timey Band perform boot-tapping live music to venues across Australia’s' South West, from halls, to pubs, to backyard jam sessions!"
+				/>
+				<ArtistCard
+					name="Duality"
+					description="This Perth-based folk duo is based in Perth. John has played in folk clubs and festivals in the UK and Australia. Joe works in schools as a guitar teacher and studied classical guitar at WAAPA."
+				/>
+				<ArtistCard
+					name="Lee Shore Songs"
+					description="Lee Shore not only does sea shanties, but other songs of the sea and ballads in the traditional folk style."
+				/>
+				<ArtistCard
+					name="Michael Ward Trio"
+					description="Raised on the salty coastal swamplands of Stratham in regional WA, Michael delivers his fusion of gritty blues, folk and alt country with a supercharged energy whenever he's on stage. An unforgettably unique show."
+				/>
+				<ArtistCard
+					name="Mucky Duck Bush Band"
+					description="They've been around for a long, long time...Since 1974, the ‘Duck’ has been performing its unique brand of Australian folk songs and dance to audiences large and small at festivals, community & corporate events and schools across Australia and overseas."
+				/>
 				<ArtistCard name="Peter Budgen" />
+				<ArtistCard
+					name="Rum Jungle"
+					description="This maritime music group hails from Geraldton, Western Australia. The name, Rum Jungle, conjures up visions of a tropical rain forest full of fiesty pirates, fighting over the latest treasure haul whilst a nearby rum still bubbles away."
+				/>
+				<ArtistCard
+					name="Salty Sea Dogs"
+					description="From what started as Monday nights in the boat shed with some mates and a few beers the SSD have grown into a powerhouse of togetherness relying on friendship and strength in diversity to hone their sound. First appearing at Denmark’s ‘Festival of the Voice’ in 2021, the SSD have gone on to appear at the Albany Shanty Fest multiple times; toured the Great Southern; and released their first EP titled ‘Tiger Snake Alley’ in 2023."
+				/>
+				<ArtistCard
+					name="She Shants"
+					description="She Shants are slightly subversive, sometimes sweet. They draw repertoire from traditional and original songs of waiting, loss, adventure and a fascination of sea creatures."
+				/>
+				<ArtistCard
+					name="Spirit of Alba"
+					description="Their exquisitely rugged yet refined blend of fiddle, guitar, border pipes, whistle and bodhran has been wowing audiences across Perth since 2020. With no shortage of energy when it comes to delivering powerful entrancing instrumentals, Spirit of Alba leave audiences breathless."
+				/>
+				<ArtistCard name="Stigwood" />
+				<ArtistCard
+					name="Sunset Coast Shanty Crew"
+					description="Inspired by the growing shanty scene in WA, the Sunset Coast Shanty Crew formed in late June 2023 making them WA’s newest shanty group. They initially spent time below deck in private rehearsal, but have since set sail into the local community and established a home port where they gather each week to sail around the globe through shanties and other nautical numbers."
+				/>
+				<ArtistCard name="The Anchormen" />
+				<ArtistCard
+					name="The Dunn Bay Wailers"
+					description="A bunch of lads (and often lasses) from Dunsborough WA that get together and sing sea shanties loudly."
+				/>
+				<ArtistCard name="The Mandurah Mariners" />
+				<ArtistCard
+					name="The RUSTBUCKETS"
+					description="The RUSTBUCKETS are four veterans of the Western Australian acoustic music scene. With roots delving into bands that began in the 60's, their decades of experience combine to bring uplifting country blues, jugband, hokum and swing tunes delivered with masterful playing and humorous stories."
+				/>
+				<ArtistCard
+					name="The Salt Lake Shantymen"
+					description="The lads who are The Salt Lake Shantymen have variously been described as ‘Howling Hooligans’, ‘Ranting Rapscallions’ and even (gasp!) ‘Shabbaroon Shantymen’ (look it up). The Shantymen spend their days roving (actually, looking for) the docks of the Goldfields, singing about the good old days to anyone who’ll listen. Songs of the sea don't get any saltier than this. "
+				/>
+				<ArtistCard name="Warralakin" />
 			</div>
 		</SectionCard>
 		<SectionCard>
