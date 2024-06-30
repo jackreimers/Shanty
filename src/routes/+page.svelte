@@ -31,6 +31,19 @@
 			</p>
 		</SectionCard>
 		<SectionCard>
+			<div class="mb-0 flex items-center">
+				<SectionHeader title="Big Sing Booklet" icon="music_note" classes="!mb-0 flex-1" />
+				<Button
+					href="/sing-booklet.pdf"
+					target="_blank"
+					classes="inline-block rounded bg-sky-600 px-3.5 py-2.5 font-semibold text-white"
+				>
+					<span class="mx-1">Download</span>
+					<Icon icon="download" />
+				</Button>
+			</div>
+		</SectionCard>
+		<SectionCard>
 			<div class="mb-6 flex items-center">
 				<SectionHeader title="Festival Program" icon="newsmode" classes="!mb-0 flex-1" />
 				<Button
