@@ -40,7 +40,15 @@
 				required
 				class="mb-4 rounded border border-gray-500 p-2"
 			/>
-
+			<label for="enquiry" class="font-medium">
+				Enquiry Type
+				<span class="text-red-500">*</span>
+			</label>
+			<select name="enquiry" required class="mb-4 rounded border border-gray-500 p-2">
+				<option hidden disabled selected value>Select an option... </option>
+				<option value="general">General</option>
+				<option value="volunteer">Volunteering</option>
+			</select>
 			<label for="message" class="font-medium">Your Message</label>
 			<input type="text" name="message" class="mb-4 rounded border border-gray-500 p-2" />
 
