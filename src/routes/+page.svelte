@@ -83,6 +83,9 @@
 					<img src="/images/cob.png" alt="City of Bunbury logo" />
 				</div>
 				<div class="flex items-center rounded bg-white p-4 md:p-6">
+					<img src="/images/albemarle.png" alt="Albemarle logo" />
+				</div>
+				<div class="flex items-center rounded bg-white p-4 md:p-6">
 					<img src="/images/southernports.png" alt="Southern Ports Logo" />
 				</div>
 				<div class="flex items-center rounded bg-white p-4 md:p-6">
