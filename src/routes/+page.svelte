@@ -102,6 +102,21 @@
 				<div class="flex items-center rounded bg-white p-4 md:p-6">
 					<img src="/images/svitzer.png" alt="Svitzer Logo" />
 				</div>
+				<div class="flex items-center rounded bg-white p-4 md:p-6">
+					<img src="/images/camera-house.png" alt="Camera House Logo" />
+				</div>
+				<div class="flex items-center rounded bg-white p-4 md:p-6">
+					<img src="/images/community-radio.png" alt="Bunbury Community Radio Logo" />
+				</div>
+				<div class="flex items-center rounded bg-white p-4 md:p-6">
+					<img src="/images/lomax.png" alt="Lomax Logo" />
+				</div>
+				<div class="flex items-center rounded bg-white p-4 md:p-6">
+					<img src="/images/mantra.png" alt="Mantra Logo" />
+				</div>
+				<div class="flex items-center rounded bg-white p-4 md:p-6">
+					<img src="/images/totally-sound.png" alt="Totally Sound Logo" />
+				</div>
 			</div>
 		</SectionCard>
 	</div>
